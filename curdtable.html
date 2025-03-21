@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="curdtable.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.6.0/pagination.css
+
+
+
+    ">
+    <title>Document</title>
+</head>
+<body onload="fetchData()" id="table">
+    
+    <h1>Search: <input type="text" id="Searchinp" oninput="searchh()"></h1><br><br>
+    <table border="2" cellspacing="10px" id="table-head">
+        <thead>
+            <i><b><tr class="tr-contain">
+                <th> name </th>
+                <th> email</th>
+                <th>mobile </th>
+                <th>address</th>
+                <th>city</th>
+                <th>state</th>
+                <th>pincode</th>  
+                <th>country </th>
+                <th>datein</th>
+                <th>dateout</th>
+                <th>person</th>
+                <!-- <th>female</th> -->
+                <!-- <th>male</th> -->
+                <!-- <th>kids</th> -->
+                <th>cancel</th>
+                <th>update</th>
+                
+            </tr></b></i>
+        </thead>
+        <tbody id="show">
+
+        </tbody>
+    </table>
+
+    <div id="showww" style="display: flex; justify-content: center;">
+
+    </div>
+    <div id="formdata">
+
+    </div>
+
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.6.0/pagination.min.js"></script>
+
+<script src="curdform.js"></script>
+</html>

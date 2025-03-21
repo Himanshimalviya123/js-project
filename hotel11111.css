@@ -1,0 +1,785 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    /* //jo v box ke bahr jayega usko andr kr dega/ */
+    /* font-family: "Montserrat", serif; */
+    font-optical-sizing: auto;
+    /* overflow-x: hidden; */
+    font-family: "Ga Maamli", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+#bars{
+    display:none;
+}
+#container h1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(66, 63, 63);
+    padding: 0.5rem;
+    position: absolute;
+    background: transparent;
+    z-index: 5;
+    /* background: transparent; */
+}
+
+#container img{
+    height: 2.5rem;
+}
+#container i{
+    display: none;
+}
+
+#container ul{
+    display: flex;
+    gap: 2rem;
+}
+
+#container ul li{
+    color: white;
+    list-style: none;
+}
+#container ul a{
+    text-decoration: none;
+}
+
+#container input{
+    /* outline: none; */
+    outline-color: #f70707;
+    border: none;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#list{
+    position: absolute;
+    z-index: 5;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0px 6px 4px 6px;
+    left: 35%;
+    top: 3rem;
+}
+#list ul li {
+    list-style: none;
+    margin-top: 7px;
+    padding: 2px;
+}
+
+#list ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
+
+#list3{
+    position: absolute;
+    top: 41.7rem;
+    background-color: wheat;
+    z-index: 5;
+    margin-left: 49rem;
+    padding: 5px;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+}
+
+
+#list3 ul li {
+    list-style: none;
+    /* margin-top: 7px; */
+    padding: 2px;
+}
+
+#list3 ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
+
+/* ///--------------------------swiper-slider----------------------- */
+
+.swiper{
+    width: 100%;
+    height: 500px ;
+}
+
+.swiper-slide{
+    -webkit-mask-image:linear-gradient(black, transparent);
+    mask-image: linear-gradient(black 70%, transparent 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img {
+    /* -webkit-mask-image:linear-gradient(black, transparent);
+    mask-image: linear-gradient(black 0%, transparent 90%); */
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover;6 */
+}
+
+#ret{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    position:absolute;
+    top: 10rem;
+    left: 2rem;
+    width: 40%;
+    color: white;
+    z-index: 5;
+}
+#ret h2{
+    font-size: 4rem;
+    font-weight: 500;
+    color:rgb(245, 17, 32);
+}
+#ret h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+#ret a{
+    background-color: hsl(0, 90%, 55%);
+    padding: 10px 16px;
+    margin-top: 2rem;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+}
+
+#ret a:hover{
+    background-color: #fff;
+    color: black;
+}
+#box-1{
+    font-weight: bold;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 2rem;
+    color: red;
+}
+
+
+#box4{
+ /* background-color: aqua; */
+ background-image: url("rolls3.webp");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: dimgray;
+ 
+}
+
+#box4 input{
+     display: flex;
+    flex-wrap: nowrap;
+ } 
+
+#box3{
+    background-color: wheat;
+    background: transparent;
+    border: 2px solid gray;
+    width: 40%;
+    padding: 2rem;
+    display: grid;
+    gap: 0.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    color: #ffc107;
+  
+}
+#box3 input{
+    display: grid;
+    width: 100%;
+    padding: 16px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#box3 i{
+    position: relative;
+    right: -94%;
+    margin-top: -2.5rem;
+    color: black; 
+}
+#box3 p{
+    background-color: #f70707;
+    width: 30%;
+    color: wheat;
+    padding: 8px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: 10px 
+}
+
+
+#idx{
+    position: absolute;
+    z-index: 5;
+    display: none;
+}
+
+
+#list2{
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    justify-content: center;
+    width: 9%;
+    background-color: wheat;
+    position: absolute;
+    left: 60%;
+    bottom: -26.4rem;
+    cursor: pointer;
+    /* z-index: 5; */
+}
+
+#list2 ul li{
+    list-style: none;
+}
+#list2 ul li:hover{
+    background-color: #3593fa;
+    width: 100%;
+    color: black;
+}
+/* telt.js// */
+
+/* /------------------room----------------------/ */
+#room{
+    display: grid;
+    justify-content: center;
+    background-color: wheat;
+    padding: 1rem;
+    color: #001238;
+}
+
+#room h1
+{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: red;
+}
+
+/* /------------------room2----------------------/ */
+#room2{
+    display: grid;
+    justify-content: center;
+    background-color: wheat;
+    padding: 1rem;
+    color: #001238;
+    /* border-radius: 50%; */
+
+}
+
+#room2 h6{
+    margin-left: 4rem;
+    font-size: 16px;
+    color: red;
+}
+#new-arrivals{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    background-color: dimgray;
+    /* display: flex;
+    justify-content: center; */
+    padding-top: 0%;
+    padding-bottom: 2%;
+
+}
+ #new-arrivals .best-seller div{
+    width:298px;
+    height:500px;
+ border: 1px solid black; 
+   color: aliceblue;
+   background-color:#001238;;
+   margin-top: 40px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+    
+} 
+#new-arrivals .best-seller{
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+#new-arrivals .best-seller div img{
+    width:296px;
+    height: 300px;
+    
+}
+#new-arrivals .best-seller div p{
+    border: 1px solid red;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #e7bf88;
+    margin-top: 10px;
+}
+#new-arrivals .best-seller  div img{
+
+    border-radius: 100px;
+    transition: all 3s ease ;
+   
+}
+#new-arrivals .best-seller  div img:hover{
+    border-radius: 100%;
+    transform: rotate(360deg);
+  
+
+}
+
+/* /------------------Roboto----------------------/ */
+
+#sec1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    flex-wrap: wrap;
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+#Roboto{
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    /* margin-top: 1rem; */
+    width: 30%;
+    /* height: 350px; */
+    padding: 1rem;
+    margin-bottom: 10px;
+
+    /* border-top-left-radius: 50px; */
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+#Roboto img{
+    height: 250px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+#rol{
+    display: grid;
+    padding: 5px 0px 10px 0px;
+}
+
+#details{
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#btn a{
+ padding: 8px 16px 8px 16px;
+ border: none;
+ border-radius: 10px;
+ width: 30%;
+ height: 50%;
+ } 
+/* #book a{
+    background-color:#d4d1d1;
+    padding: 10px 16px;
+    margin-top: 2rem;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: black;
+}
+
+#book a:hover{
+    background-color: #fff;
+    color: black;
+} */
+
+/* /-----------------luxury cars----------------------/ */
+
+#sec2{
+    /* display: flex;
+    justify-content: center; */
+    background-color:#212529; 
+    padding: 1rem;
+}
+#luxury-room{
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+    /* margin-top: 1rem; */
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+
+#luxury-room img{
+ width: 100%;
+ height: 100px;
+ border-radius: 10px;
+ /* transition: 1s; */
+}
+
+#luxury-room:hover{
+    transform: scale(1.0.5);
+    background-color: #ffc107;
+}
+#luxury-room p{
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+}
+
+#lux-room{
+    height: 86px;
+    width: 90px;
+    background-color: #212529;
+    color: white;
+    position: relative;
+    bottom: 5.3rem;
+    border-radius: 0 40px 0 0;
+}
+#lux-room div{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 1rem;
+    border-radius: 50%;
+    border: 2px solid #ffc107;
+}
+
+#lux-room p{
+    margin-top: 22px;
+}
+ /* ====================================================sec 3======================== */
+
+   
+/* ------------scrollbar section starts here----/ */
+
+ #scrollbar .slide div{
+    width: 225px;
+    /* height: auto; */
+ /* border: 1px solid black; */
+     border-radius: 10px;
+    gap: 40px;
+    margin-top: 10%;
+    padding-top: 10%;
+    /* border: 1px solid black;  */
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+ grid-template-rows: repeat(5,225px);
+ 
+}
+ #scrollbar{
+     border: 1px solid wheat;
+     width: 100%; 
+    overflow: hidden !important; 
+}
+#scrollbar .slide{ 
+   display: grid;
+   grid-template-columns: repeat(5,225px);
+   grid-template-rows: repeat(5,225px);
+   grid-template-rows: repeat(5,225px);
+   overflow-x: scroll;
+   scrollbar-width: none;
+   /* padding-left: 10%; */
+    gap: 30px; 
+   
+   
+ }
+#scrollbar .content div h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-top: 50PX;
+    padding-left: 10%;
+    
+}
+#scrollbar .slide div img{
+    width: 230px;
+    height: 240px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    transition: all 3s ease ;
+     /* border-radius: 100%;  */
+     gap: 20%;
+     /* position: absolute; */
+     display:grid;
+     grid-template-columns: repeat(5,225px);
+     grid-template-rows: repeat(5,225px);
+    
+}
+ #scrollbar .slide div img:hover{
+     border-radius: 100%; 
+     transform: rotate(360deg); 
+
+
+ }  
+ #rastro{
+    display: grid;
+    justify-content: center;
+    background-color: wheat;
+    padding: 1rem;
+    color: #001238;
+    margin-top: 2%;
+    /* border-radius: 50%; */
+
+}
+
+#rastro h6{
+    margin-left: 4rem;
+    font-size: 16px;
+    color: red;
+}
+
+/* --------------------------------------------------- */
+
+
+/* /--------=====fourth section starts here======--/ */
+#fourth div {
+   width: 100%; 
+    height: 100vh;
+   /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    flex-wrap: wrap;
+    /* background-color: lightcyan; */
+    color: beige;
+    background-color:#212529; 
+
+    /* background-color: #001238; */
+
+    overflow: hidden !important;
+}
+#fourth h2{
+    color: crimson;
+    transition: all 3s ease;
+}
+#fourth h2:hover{
+    color: darkred;
+    border-radius: 100%;
+    transform: rotate(360deg);
+    
+}
+#fourth p{
+    font-size: 10px;
+   
+}
+#fourth div img{
+
+    border-radius: 100px;
+    transition: all 3s ease ;
+   
+}
+#fourth div img:hover{
+    border-radius: 100%;
+    transform: rotate(360deg);
+  
+
+}
+/* ====fourth section end=====/ */ */
+#box4{
+    /* background-color: aqua; */
+    background-image: url("rolls3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   
+   #box4 input{
+       display: flex;
+       flex-wrap: nowrap;
+   }
+   
+/* ---------------------------------------------------------- */
+ #connect{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* background-color:red;  */
+      /* background-color: black; */
+     flex-direction: column;
+     overflow: hidden !important;
+} 
+
+
+ #connect br{
+    display: none;
+}
+#connect h3 i {
+   /* background-color: aliceblue; */
+   padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+   padding-bottom: 7px; 
+     border-radius: 50%;
+     font-size: 20px;
+     color: black;
+}
+
+#connect h3 i:hover{
+    color: brown;
+} 
+
+ #connect h1 i{
+    color: antiquewhite;
+    transition: all 3s ease-in;
+    font-size: small;
+    
+ }
+ #connect h1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding-top: 30px;
+     padding-bottom: 30px; 
+ }
+ #connect h1 i:hover{
+     color: brown;
+ }
+ #connect center div input{
+     width:100PX;
+     height:auto;
+     font-size: 10px;
+   
+ } 
+ /* /=========footer end ======/ */
+ #rastronant {
+    /* background-color: aqua; */
+    background-image: url("rolls3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgray;
+    
+   }
+   
+   #rastronant input{
+        display: flex;
+       flex-wrap: nowrap;
+    } 
+   
+ 
+
+/* /-------swiper animation----------------------/ */
+
+@media (max-width:450px) {
+    body{
+        width: 100%;
+        box-sizing: border-box;
+        /* padding-top: 20%; */
+    }
+    #bars{
+        position: absolute;
+        top: 0%;
+        right: 10%;
+        font-size: 40px;
+        color:black;
+        z-index: 50;
+        display:block;
+        /* padding-right: 5%; */
+
+    }
+    #inp{
+        display:none;
+    }
+    #inp:checked~ header nav #container ul{
+        display: block;
+        position: absolute;
+        top: 44px;
+        right:1%;
+        padding: 20px;
+        border-radius: 10px;
+       background-color:transparent;
+       color: #001238;
+     }
+
+     #inp:checked~main{
+        margin-top: 50px;
+     }
+    
+    #container ul{
+        display: none;
+        padding: 0%;
+    }
+
+    #container input{
+        display: none;
+    }
+    #container img{
+        height: 1.5rem;
+        margin-left: -11rem;
+    }
+    #idx{
+        display: flex;
+        font-size: 2rem;
+        margin-left: 24rem;
+        margin-top: 1rem;
+        color:#fff;
+    }
+    #inp
+    {
+
+    }
+}
