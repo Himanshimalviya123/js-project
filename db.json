@@ -1,7 +1,7 @@
 {
   "hotel": [
     {
-      "name": "sonu ",
+      "name": "sonu m",
       "email": "malviyasonu12@gmail.com",
       "mobile": "021574572237",
       "address": "ashok nagar",
@@ -61,21 +61,6 @@
       "price": 500
     },
     {
-      "id": "7eb1",
-      "name": "priya",
-      "email": "priya@123.gmail.com",
-      "mobile": "4331231235",
-      "address": "mp nagar",
-      "city": "bhopal",
-      "state": "mp",
-      "pincode": "6457686",
-      "country": "India",
-      "datein": "2025-03-12",
-      "dateout": "2025-03-13",
-      "person": "2",
-      "price": 500
-    },
-    {
       "name": "tinaa",
       "email": "tina@123.gmail.com",
       "mobile": "4331231235",
@@ -104,6 +89,36 @@
       "person": "2",
       "price": 500,
       "id": "7685"
+    },
+    {
+      "id": "3bc7",
+      "name": "tinku",
+      "email": "tinku@14gmail.com",
+      "mobile": "7637567835",
+      "address": "bhopal",
+      "city": "bhopal",
+      "state": "mp",
+      "pincode": "647878",
+      "country": "india",
+      "datein": "2025-03-21",
+      "dateout": "2025-03-22",
+      "person": "2",
+      "price": 500
+    },
+    {
+      "id": "c729",
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "pincode": "",
+      "country": "",
+      "datein": "",
+      "dateout": "",
+      "person": "",
+      "price": 500
     }
   ]
 }
