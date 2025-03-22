@@ -263,6 +263,114 @@
     background-color: #fff;
     color: black;
 } 
+* /------------==================================third section starts here===================================================-->/ */
+ .abm{
+    display: grid;
+    justify-content: center;
+    background-color:#e7bf88;
+    padding: 1rem;
+    color: #001238;
+    /* border-radius: 50%; */
+    width: 100%;
+
+}
+ #aboutus{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: #0f0e0e; */
+    color:white;
+    background-image: url("slide2.avif");
+    background-size: cover;
+    
+}
+.aboutcontains{
+    display: flex; 
+    gap: 200px;
+    margin-top: 150px;
+    /* background: #000000; */
+    /* background: rgba(135, 207, 235, 0.473); */
+    flex-wrap: wrap;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(70, 71, 71, 0.249),-5px -5px 10px rgba(50, 51, 52, 0.24);
+  
+}
+.imgdata{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid aliceblue; */
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.img1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border:5px outset aliceblue;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+}
+.img2{
+    border-top-right-radius: 60px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 60px;
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    transform: translate(-50%,-50%);
+    border:5px outset aliceblue;
+}
+.content{
+   width: 600px;
+   height: 650px;
+   margin-top: 10px;
+   /* border: 1px solid aliceblue; */
+}
+.content h1 h2 h3{
+    font-weight: 500;
+}
+.content h1{
+    font-size: 25px;
+}
+.content button{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    background-color: #f21818ee;
+    border: none;
+    /* font-size: 1.9em; */
+    font-size: x-large;
+}
+.content button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.content button:hover{
+    background-color: #df0f0f6c;
+    
+}
+.content img{
+    width: 50px;
+    height: 50px;
+    color: aliceblue;
+    margin-top: 8px;
+}
+/* /* /------------====================================third section end======================================================= */
  /* ========================================== roboto end========================================================= */
  #contact {
     width: 100%;
