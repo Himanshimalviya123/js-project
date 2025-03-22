@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Ga+Maamli&family=Lobster&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Sigmar&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Charm:wght@400;700&family=Jaro:opsz@6..72&family=Lobster&family=Oleo+Script:wght@400;700&family=Satisfy&family=Spicy+Rice&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+   
+   
+    <!-- ===========================================&&&&&&&&&&&&&&&&&&&&&&&&================================== -->
+    <input type="checkbox" id="inp"> 
+    <label for="inp" id="bars"><i class="fa-solid fa-bars"></i></label>
+      <header id="heading">
+        <nav>
+            <div id="container">
+              
+                <div>
+                    <h2>LUX<span>URY<br>HO</span>TEL</h2>
+                  
+                </div>
+              <ul data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="2500">
+                  <!-- <a href="#"><li onclick="home1()"><h1></h1></li></a> -->
+                  <li><a href="hotel.html">HOTELS</a></li>
+                  <li><a href="">ROOM</a></li>
+                  <li><a href="dining.html">DINING</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+              <h1>
+              <span onclick="sing()"> <a href="singpage.html">Signup</a></span>
+              <span onclick="logout()">Logout</span>
+            </h1>
+            <input type="text" placeholder="Search">
+            </div>
+  
+           
+              
+              
+        </nav>
+      </header>
+    <section>
+          <!-- -------------Swiper ---------------->
+  <div class="swiper mySwiper card-box">
+    <div class="swiper-wrapper">
+       
+
+        <div class="swiper-slide">
+            <img src="./image folder/hotel1.jpg" alt="">
+         </div>
+
+      <div class="swiper-slide">
+        <img src="./image folder/carousel-1.jpg" alt="">
+     </div>
+
+     <div class="swiper-slide">
+        <img src="luxery.jpg" alt="">
+    </div>
+      <div class="swiper-slide">
+          <img src="slide2.avif" alt="">
+      </div>
+
+     <div class="swiper-slide">
+        <img src="slide3.jpg" alt="">
+     </div>
+
+     <div class="swiper-slide">
+      <img src="slide4.jpg" alt="">
+     </div>
+
+
+      </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-pagination"></div>
+        </div>
+      
+    </section>
+<!-- =============&&&&&&&&&&&&&&&&&&&&&&&&&&&&&7===================== -->
+   <!---------============================================-second section starts here===========================================--->
+<section>
+
+<div id="ret" data-aos="fade-right"
+data-aos-offset="300"
+data-aos-easing="ease-in-sine"
+data-aos-duration="2000">
+<h1>Discover A Brand<br>
+  <span>Luxurious Hotel</span> </h1><br>
+                      
+    
+    
+     <span class="btn1" onclick="booknow()">BOOK A HOTEL NOW!</span >
+        <button class="btn2"><a href="#">Learn More</a></button>
+  </div> 
+</section>
+      <!---------============================================-second section starts here===========================================--->
+
+  <!------------====================================second section end================================
+   ------------------------------------box-1------------------------- -->
+    <div id="box-1">
+        <div><marquee direction="flip-left">WE SPECIALIZE IN THE SUPPLY OF DELICIOUS AND BEAUTIFUL PRESENTED DISHES FOR ANY OCCASION</marquee> <span id="type">  </span> </div>
+        <!-- get 75% Discount -->
+    </div>
+   <!-- ------------------------------------box4------------------------- -->
+   <!-- ============================================================ -->
+<h1 align="center"  id="room">CONTACT</h1>
+<!-- <video src="TAJ WEBSITE FILM.mp4" autoplay loop muted></video> -->
+<!-- hotel  -->
+<div id="box4">
+    <video src="video2.mp4" autoplay loop muted></video>
+
+    <div   data-aos="flip-left" id="box3">
+
+    Add Location
+    <input type="text" placeholder="Enter Location" data-aos="zoom-in"  id="add">
+    <i class="fa-solid fa-angle-down" onclick="addlocation()"></i>
+
+    Enter Pickup date
+    <input type="date" placeholder="Enter Date" data-aos="zoom-in" >
+    
+    Enter Drope date
+    <input type="date" placeholder="Check In" data-aos="zoom-in" >
+
+    
+    <a href="index1.html"><p>Find a hotel</p></a>
+</div>
+</div>
+<!-- ======================================================================== -->
+
+ <!------------=================================footer starts here===================================================-->
+
+
+
+ <footer id="contact">
+    <center>
+       <div>
+           <p>Signup To Receive Offers & Updates</p><br>
+           <input type="email" placeholder="YOUR E-MAIL">
+        </div> <br><br>
+      </center>
+    <hr>
+    
+        <div class="signup">
+            
+            <div>
+                <h1>IHCL</h1> <br>SUBSCRIBE FOR LATEST UPDATES<br><br><br>
+                <h3>FOR BOOKING CONTACT</h3>1-800-111-825<br>
+                <h3>CUSTOMER SUPPORT</h3>contacttaj@tajhotels.com<br>
+            <br><br>
+            <h3>reservation@ihcltata.com</h3>
+            <br><br>
+            <h3>website.feedback@tajhotels.com</h3>
+            </div>
+            <div>
+                <h1> <a href="contact.html">CONTACT US</a></h1><br><br>
+                <div>
+                    <p>Signup To Receive Offers & Updates</p><br>
+                    <input type="email" placeholder="YOUR E-MAIL">
+                    <button>SUBSCRIBE</button>
+                 </div> <br><br><br>
+                 <hr>
+                 ----------------------------------------------------------------<br>
+                 DESTINATION<br>
+                 ----------------------------------------------------------------
+                 <br>
+                 <hr>
+                 OUR BRANDS
+                <P>
+
+                </P>
+            </div>
+  
+            <div>
+              <h1> Quick links</h1><br><br>
+              <a href="">Destination</a><br>
+                 <a href="">Hotels</a> <br>
+                 <a href="">Dining</a> <br>
+                 <a href="">offers</a><br>
+                 <a href="">rastronant/bar</a><br>
+                 <a href="">membership</a><br>
+                 <a href="">Service</a>
+  
+                 <hr>
+                 <i class="fa-brands fa-instagram fa-fade"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa-brands fa-facebook fa-fade"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa-brands fa-twitter fa-fade"></i>&nbsp;&nbsp;&nbsp;
+                <i class="fa-brands fa-google fa-fade"></i><br><br><br>
+              </div>
+              
+      </div>
+      ---------------------------------------------------------------------------------------------------------
+      DESTINATION<br>
+      ---------------------------------------------------------------------------------------------------------
+    
+  </footer> 
+  <!--=======================[FOOTER ENDS HERE]==============-->
+  
+ 
+<!-- ---------------------swiper------------------ -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="first.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="typed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+       <script src="vanta.js"></script>
+    <script src="first.js"></script>
+</body>
+</html>
+
+
