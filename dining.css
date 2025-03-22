@@ -565,7 +565,91 @@ font-size:xx-large;
     margin-left: 160%;
 }
  /* <============rastronaunt end ==============> */ 
+/* ====================================================footer starts ======================================== */
+#contact {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    padding-top: 60px;
+    background: #0f0e0e;
+    flex-wrap: wrap;
+   
+}
+#contact p{
+   font-size: 20px;
+   color: aliceblue;
+}
+#contact center input{
+        width:400PX;
+        height:7vh;
+        font-size: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+}
+#contact .signup div{
+    width: 100%;
+    height: auto;
+    border-right: 1px solid aliceblue;
+    flex-direction: column;
+    padding-top: 40px;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+   
+}
+#contact .signup {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+#contact .signup h1 a{
+    color: aliceblue;
+    /* text-decoration: none; */
+    font-size: 30px;
+    
+}
 
+#contact .signup h1:hover{
+    color: rgb(243, 12, 8);
+}
+#contact .signup  i{
+     margin-top: 20px;
+     background-color: black;
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     border-radius: 100%;
+     font-size: 20px;
+     color: aliceblue;
+     border: 5px solid aliceblue;
+}
+#contact .signup i:hover{
+    background-color: darkgoldenrod;
+    border: 5px solid darkred;
+}  
+#contact .signup h1{
+    font-size: 32px;
+    transition: all 3s ease;
+}
+#contact .signup h1:hover{
+    color: rgb(243, 31, 3);
+}
+#contact .signup a{
+    /* text-decoration: none; */
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#inp{
+    display: none;
+} 
+ #bars{
+    display: none;
+}
+
+/* /<!--=======================[FOOTER end HERE]==============-->/ */
 /* /<!--=======================[FOOTER end HERE]==============-->/ */
 /* ==============================( media uery starts)======================================= */
 @media (max-width:450px) {
@@ -622,4 +706,313 @@ font-size:xx-large;
         margin-top: 1rem;
         color:#fff;
     }
+       /* ======================rastronauat starts==============================  */
+ #containt .maindiv{
+    width: 100%;
+    height: auto;
+     border: 2px solid black; 
+     display: grid;
+ grid-template-columns: 1fr;
+ align-items: center; 
+ justify-content: space-between; 
+ gap: 10px;
+ flex-wrap: wrap; 
+}
+.maindiv div img{
+ width: 100px;
+ height: 90px;
+ align-items:center ;
+ background-color: 2px solid black;
+ border-radius: 13px;
+ margin:40px;
+}
+#containt .maindiv .one{
+ width: 100%;
+ /* background-color:burlywood; */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+}
+#containt .maindiv .one div{
+ /* margin-top: 5%; */
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ /* margin-bottom: 10%; */
+
+}
+#containt .maindiv .one img{
+ width:66%;
+ height:200px;
+ align-items: center;
+ /* padding-left: 10%; */
+ /* padding-right: 10%; */
+/* border-radius: 100%; */
+transition: all 3s ease;
+
+}
+#containt .maindiv .one img:hover{
+    /* border-radius: 100%; */
+    transform: rotate(360deg);
+}
+#containt .maindiv .two{
+ width: 100%;
+ /* background-color: aqua ; */
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+}
+#containt .maindiv .two div{
+ /* margin-top: 2%; */
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ margin-bottom: 10%;
+}
+#containt .maindiv .two h1{
+padding-bottom: 40%;
+}
+
+#containt .maindiv .two img{
+ width:66%;
+ height:200px;
+ align-items: center;
+ margin-left: 4.6rem;
+ /* padding-left: 15%; */
+ /* border-radius: 100%; */
+ transition: all 3s ease;
+ top: -3rem;
+ 
+ }
+ #containt .maindiv .two img:hover{
+     border-radius: 100%;
+     transform: rotate(360deg);
+ }
+
+ #containt .maindiv .three{
+ /* background-color: cadetblue; */
+ width: 100%;
+
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+#containt .maindiv .three div{
+ /* margin-top: 5%; */
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ margin-bottom: 5%;
+}
+#containt .maindiv .three img{
+ width:66%;
+ height:200px;
+ align-items: center;
+ /* padding-left: 20%; */
+ margin-left: 4.6rem;
+
+}
+#containt .maindiv .four{
+ /* background-color: burlywood; */
+ width: 100%;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+#containt .maindiv .four div{
+ /* margin-top: 5%; */
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ margin-bottom: 10%;
+}
+#containt .maindiv .four img{
+ width:66%;
+ height:200px;
+ align-items: center;
+ /* padding-left: 5%; */
+ margin-left: 3.6rem;
+
+}
+
+#containt .maindiv .five{
+ /* background-color: lightcoral; */
+ width: 100%;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+#containt .maindiv .five div{
+ /* margin-top: 5%; */
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ margin-bottom: 10%;
+}
+#containt .maindiv .five img{
+ width:66%;
+ height:200px;
+ align-items: center;
+ /* padding-left: 10%; */
+ margin-left: 3.6rem;
+
+}
+#containt .maindiv .six{
+ /* background-color: lightskyblue; */
+ width: 100%;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+#containt .maindiv .six div{
+ margin-top: 2%;
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ margin-bottom: 5%;
+}
+#containt .maindiv .six img{
+ width:88%;
+ height:150px;
+ align-items: center;
+ /* padding-left: 15%; */
+ margin-left: 1.6rem;
+
+}
+#containt .maindiv .seven{
+ /* background-color:  aquamarine; */
+ width: 100%;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+#containt .maindiv .seven div{
+ /* margin-top: 5%; */
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+}
+#containt .maindiv .seven img{
+ width:77%;
+ height:200px;
+ align-items: center;
+ /* padding-left: 25%; */
+ margin-left: 2.9rem;
+
+}
+#containt .maindiv .eight{
+ /* background-color: plum; */
+ width: 100%;  
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+#containt .maindiv .eight div{
+ margin-top: 5%;
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+}
+#containt .maindiv .eight img{
+ width:88%;
+ height: 200px;
+ align-items: center;
+ /* padding-left: 10%; */
+ margin-left: 2.6rem;
+
+}
+#containt .maindiv .even{
+ padding: 6% 30px;
+ background-color: rgb(140, 14, 14);
+ border: 2px solid black;
+ color: white;
+ display: flex;
+ justify-content: space-between;
+ 
+}
+/* <=========================rastronaut ends========================> */
+/* ===================================== footer starts=======================================  */
+#contact {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    padding-top: 60px;
+    background: #0f0e0e;
+    flex-wrap: wrap;
+    padding: 2rem;
+    
+}
+#contact p{
+   font-size: 20px;
+   color: aliceblue;
+}
+#contact center input{
+        width:250PX;
+        height:7vh;
+        font-size: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+}
+#contact .signup div{
+    width: 100%;
+    height: auto;
+    border-right: 1px solid aliceblue;
+    flex-direction: column;
+    padding-top: 40px;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+   
+}
+#contact .signup {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+#contact .signup h1 a{
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+
+#contact .signup h1:hover{
+    color: rgb(243, 12, 8);
+}
+#contact .signup  i{
+     margin-top: 20px;
+     background-color: black;
+     padding-top: 10px;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     border-radius: 100%;
+     font-size: 20px;
+     color: aliceblue;
+     border: 5px solid aliceblue;
+     
+      
+}
+#contact .signup i:hover{
+    background-color: darkgoldenrod;
+    border: 5px solid darkred;
+}  
+#contact .signup h1{
+    font-size: 32px;
+    transition: all 3s ease;
+}
+#contact .signup h1:hover{
+    color: rgb(243, 31, 3);
+}
+#contact .signup a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size:20px;
+}
+
+/* ============================================= */
 }
